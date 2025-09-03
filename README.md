@@ -90,12 +90,7 @@ Use a lightweight static server:
   - Verify there are no negative heights and values are integers.
 - Layout issues:
   - Try resizing the browser window or zoom level; SVG is responsive.
-
-## Extending
-- Add presets for common test cases.
-- Export the chart as PNG/SVG.
-- Animate per-step fill to illustrate the two-pointer sweep.
-- Add unit tests for the algorithm in a separate JS test runner.
+- Other bugs or suggestions? Please create an issue!
 
 ## License
 This project is licensed under the terms of the LICENSE file included in the repository.
