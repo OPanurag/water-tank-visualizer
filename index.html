@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Water Tank – Trapping Rain Water</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Water Tank (Trapping Rain Water)</h1>
+    <p>Enter block heights, visualize trapped water</p>
+  </header>
+
+  <main class="app">
+    <div class="controls">
+      <input id="heights" type="text" placeholder="e.g. 0,1,0,2,1,0,1,3,2,1,2,1" />
+      <button id="render">Render</button>
+      <button id="random" class="secondary">Randomize</button>
+    </div>
+
+    <div class="stats" id="stats" hidden>
+      <div>Total Bars: <span id="nVal">–</span></div>
+      <div>Total Water: <span id="waterVal">–</span></div>
+      <div>Max Height: <span id="hMaxVal">–</span></div>
+    </div>
+
+    <div class="legend">
+      <span class="key block"></span> Block
+      <span class="key water"></span> Water
+    </div>
+
+    <div class="viz-wrap">
+      <svg id="chart" viewBox="0 0 1200 450" preserveAspectRatio="xMidYMid meet"></svg>
+    </div>
+  </main>
+
+  <footer>
+    <p>Algorithm: Two-pointer method (O(n) time, O(1) space).</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
