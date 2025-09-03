@@ -16,6 +16,8 @@ Some browsers restrict local file access. Use a lightweight static server:
   python3 -m http.server 8000
   ```
   Open http://localhost:8000 in your browser and navigate to `water-tank-visualizer/`.
+  
+![alt text](assets/water_tank_two_pointer_diagram.png)
 
 ## Features
 - Input parsing for comma- or space-separated bar heights
