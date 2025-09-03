@@ -1,6 +1,8 @@
 # Water Tank – Trapping Rain Water
 
-An interactive, zero-dependency web app that visualizes the classic Trapping Rain Water problem. Enter bar heights, render an SVG chart of blocks and trapped water, and see computed stats in real time. The core solution uses the two-pointer algorithm with O(n) time and O(1) extra space.
+An interactive, zero-dependency web app that visualizes the classic Trapping Rain Water problem.
+Enter bar heights, render an SVG chart of blocks and trapped water, and see computed stats in real time. 
+The core solution uses the two-pointer algorithm with O(n) time and O(1) extra space.
 
 ## Demo (Local)
 You can run this locally without any build tools.
