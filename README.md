@@ -9,15 +9,14 @@ You can run this locally without any build tools.
 1. Double-click `index.html` to open it in your browser.
 
 ### Option 2: Serve over HTTP (recommended)
-Some browsers restrict local file access. Use a lightweight static server:
+Some browsers restrict local file access. 
+Use a lightweight static server:
 
 - Python 3:
   ```bash
   python3 -m http.server 8000
   ```
   Open http://localhost:8000 in your browser and navigate to `water-tank-visualizer/`.
-
-![alt text](assets/water_tank_two_pointer_diagram.png)
 
 ## Features
 - Input parsing for comma- or space-separated bar heights
@@ -45,6 +44,8 @@ Some browsers restrict local file access. Use a lightweight static server:
      - Else: add `right_max - height[right]` to `water`.
      - Move `right` left.
 3. Result is `water`.
+
+![alt text](assets/water_tank_two_pointer_diagram.png)
 
 ## Usage
 1. Open the app.
