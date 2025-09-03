@@ -16,7 +16,7 @@ Some browsers restrict local file access. Use a lightweight static server:
   python3 -m http.server 8000
   ```
   Open http://localhost:8000 in your browser and navigate to `water-tank-visualizer/`.
-  
+
 ![alt text](assets/water_tank_two_pointer_diagram.png)
 
 ## Features
@@ -56,7 +56,7 @@ Some browsers restrict local file access. Use a lightweight static server:
 
 ## Input Format
 - Accepts integers separated by commas and/or whitespace.
-- Non-integer tokens are ignored or coerced if possible; invalid overall input results in an empty or partial render depending on parsing.
+- Decimal tokens are rounded to nearest integer; invalid overall input results in an empty or partial render depending on parsing.
 - Negative values are treated as 0 height for visualization purposes (if present).
 
 ## Project Structure
